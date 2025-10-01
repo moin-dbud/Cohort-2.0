@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Monts;
+    src: url(Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(oswald.regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(./pexels-sergi-montaner-1924032-3727715\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 90px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: Oswald;
+    font-weight: 600;
+    color:rgb(185, 76, 76);
+    margin-bottom: 10px;
+}
+
+button{
+    font-size: 18px;
+    padding: 14px 18px;
+    border-radius: 5px;
+    border: 2px solid rgb(110, 75, 75);
+    background-color: transparent;
+}
+
+button:hover{
+    background-color: rgb(185, 76, 76);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+}

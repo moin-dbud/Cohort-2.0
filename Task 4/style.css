@@ -10,10 +10,11 @@
   font-family: Apple, Arial, Helvetica, sans-serif;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 #nav {
@@ -24,7 +25,7 @@ html, body {
   align-items: center;
   justify-content: center;
   gap: 16px;
-  position:fixed;
+  position: fixed;
   top: 0;
   opacity: 80%;
 }
@@ -59,7 +60,7 @@ h3 {
   margin-top: 3px;
 }
 
-#btn{
+#btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -127,7 +128,8 @@ h3 {
   width: 100%;
 }
 
-#box1, #box2 {
+#box1,
+#box2 {
   height: 100%;
   width: 100%;
   text-align: center;
@@ -135,7 +137,7 @@ h3 {
   color: black;
 }
 
-#main h3{
+#main h3 {
   font-size: 22px;
   font-weight: 100;
   margin-top: 3px;
